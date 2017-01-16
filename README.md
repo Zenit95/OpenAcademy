@@ -1,0 +1,2 @@
+# OpenAcademy
+Rubricas Odoo 
