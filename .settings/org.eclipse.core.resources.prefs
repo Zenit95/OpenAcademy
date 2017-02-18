@@ -3,3 +3,4 @@ encoding/__init__.py=utf-8
 encoding/__openerp__.py=utf-8
 encoding/models.py=utf-8
 encoding/partner.py=utf-8
+encoding/wizard.py=utf8
