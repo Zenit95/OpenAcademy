@@ -95,6 +95,18 @@
             <field name="model">openacademy.session</field>
             <field name="arch" type="xml">
                 <form string="Session Form">
+                    <header>
+                        <button name="action_draft" type="workflow"
+                                string="Reset to draft"
+                                states="confirmed,done"/>
+                        <button name="action_confirmed" type="workflow"
+                                string="Confirm" states="draft"
+                                class="oe_highlight"/>
+                        <button name="action_done" type="workflow"
+                                string="Mark as done" states="confirmed"
+                                class="oe_highlight" widget="statusbar"/>
+                    </header>
+                
                     <sheet>
                         <group>
                             <group string="General">
